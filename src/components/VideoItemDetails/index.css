@@ -1,0 +1,60 @@
+.video-item-main-container {
+  /* background-color: #383838; */
+  /* color: white; */
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.video-content-container {
+  /* background-color: #383838;
+  color: white; */
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+.responsive-container {
+  width: 100%;
+}
+.video-container {
+  /* background-color: black; */
+  padding: 3%;
+  width: 100%;
+  height: 90vh;
+  overflow-y: scroll;
+}
+.views-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.like-dislike-container {
+  display: flex;
+  flex-direction: row;
+  width: 15vw;
+  justify-content: space-between;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+}
+.profile-img {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+.channel-details {
+  padding: 0px;
+  margin: 0px;
+}
+
+.remove-margin {
+  margin: 0px;
+  padding: 2px;
+}
+.save-btn {
+  border: none;
+  background: none;
+}

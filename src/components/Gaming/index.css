@@ -1,0 +1,43 @@
+.gaming-container {
+  /* background-color: black;
+   color: white; */
+  display: flex;
+  flex-direction: row;
+}
+.game-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.game-item {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 5px;
+  /* color: white; */
+  margin: 8px;
+}
+.game-img {
+  height: 30vh;
+  width: 15vw;
+}
+.game-link {
+  text-decoration: none;
+  width: 26vw;
+}
+.bg-dark {
+  background-color: #231f20;
+  color: #ffffff;
+}
+.bg-light {
+  background-color: #ffffff;
+  color: #181818;
+}
+.loader-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

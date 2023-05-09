@@ -1,0 +1,43 @@
+.left-side-container {
+  height: 90vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-icon {
+  margin: 0px 6px 0px 6px;
+  height: 20px;
+  width: 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+a.highlight_link.link {
+  background-color: gray;
+}
+a.highlight_link:visited {
+  background-color: gray;
+}
+a.highlight_link:hover {
+  background-color: lightgray;
+}
+a.highlight_link:active {
+  background-color: yellow;
+}
+
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+.social-icon {
+  height: 22px;
+  width: 22px;
+  margin: 3px;
+}

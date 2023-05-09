@@ -1,0 +1,30 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  height: 35vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+.login-logo {
+  align-self: center;
+  height: 30px;
+  width: 200px;
+}
+.login-btn {
+  background-color: dodgerblue;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  padding: 3px;
+}
